@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className='nav-header'>
             <section>
               <h2>
-                chinelo <span>e</span>
+                Jez <span>Tech</span>
               </h2>
             </section>
             <section>

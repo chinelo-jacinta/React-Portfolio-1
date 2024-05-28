@@ -1,9 +1,11 @@
 import React from 'react';
+import Cart from '../public/images/Cart.png';
+import Cocktail from '../public/images/Cocktail.jpg';
+import Questions from '../public/images/Q&A.jpg';
 import { FaHtml5 } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import { FaInstagramSquare, FaGithub } from 'react-icons/fa';
-
 export const links = [
   {
     id: 1,
@@ -39,7 +41,7 @@ export const skills = [
     icon: <IoLogoJavascript />,
     name: 'Javascript',
     aboutSkill:
-      'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+      'Skilled in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: 3,
@@ -52,9 +54,10 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    image:
-      'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'First Project',
+    // image:
+    //   'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: Cart,
+    title: 'Cart',
     about:
       'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti',
     icon1: <FaInstagramSquare />,
@@ -62,9 +65,8 @@ export const projects = [
   },
   {
     id: 2,
-    image:
-      'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Second Project',
+    image: Cocktail,
+    title: 'Cocktail App',
     about:
       'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti',
     icon1: <FaInstagramSquare />,
@@ -72,9 +74,8 @@ export const projects = [
   },
   {
     id: 3,
-    image:
-      'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Third Project',
+    image: Questions,
+    title: 'Questions and Answers',
     about:
       'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti',
     icon1: <FaInstagramSquare />,

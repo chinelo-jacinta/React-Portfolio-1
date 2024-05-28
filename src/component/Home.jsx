@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaInstagramSquare, FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import { FaArrowUp } from 'react-icons/fa';
 const Home = () => {
   return (
@@ -16,8 +17,15 @@ const Home = () => {
             <p className='title'>front-End Developer</p>
             <p className='home-text'>turning ideas into interactive reality</p>
             <div className='socials'>
-              <FaGithub className='git' />
-              <FaInstagramSquare className='ig' />
+              <a href='' className='icon'>
+                <FaInstagramSquare />
+              </a>
+              <a href='' className='icon'>
+                <FaGithub />
+              </a>
+              <a href='' className='icon'>
+                <FaLinkedin />
+              </a>
             </div>
           </div>
           <div className='home-img'>
