@@ -17,13 +17,19 @@ const Home = () => {
             <p className='title'>front-End Developer</p>
             <p className='home-text'>turning ideas into interactive reality</p>
             <div className='socials'>
-              <a href='' className='icon'>
+              <a
+                href='https://www.instagram.com/chinelo_jessy/'
+                className='icon'
+              >
                 <FaInstagramSquare />
               </a>
-              <a href='' className='icon'>
+              <a href='https://github.com/chinelo-jacinta' className='icon'>
                 <FaGithub />
               </a>
-              <a href='' className='icon'>
+              <a
+                href='https://www.linkedin.com/in/chinelo-jacinta-82782323b/'
+                className='icon'
+              >
                 <FaLinkedin />
               </a>
             </div>

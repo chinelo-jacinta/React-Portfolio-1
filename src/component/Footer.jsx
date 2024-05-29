@@ -11,13 +11,16 @@ const Footer = () => {
             Jez <span>Tech</span>
           </h2>
           <div className='socials'>
-            <a href='https://instagram.com' className='icon'>
+            <a href='https://www.instagram.com/chinelo_jessy/' className='icon'>
               <FaInstagramSquare />
             </a>
-            <a href='https://github.com' className='icon'>
+            <a href='https://github.com/chinelo-jacinta' className='icon'>
               <FaGithub />
             </a>
-            <a href='https://linkedin.com' className='icon'>
+            <a
+              href='https://www.linkedin.com/in/chinelo-jacinta-82782323b/'
+              className='icon'
+            >
               <FaLinkedin />
             </a>
           </div>
