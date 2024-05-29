@@ -201,7 +201,7 @@ Home
   display: flex;
   justify-content: space-between;
   width: 10rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
   cursor: pointer;
@@ -490,4 +490,102 @@ back home btn
   50% {
     transform: translateY(-10px) scale(0.95);
   }
+}
+/*
+=============== 
+Contact 
+===============
+*/
+.form-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.form-center input {
+  flex: 0 0 calc(50% - 10px);
+}
+.form {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+}
+.form h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.form-text {
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+  padding: 18px 26px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border: 1px solid green;
+  width: 100%;
+}
+#contact {
+  background-color: rgb(247, 247, 247);
+
+  /* background: green; */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+textarea {
+  border: 1px solid green;
+  max-width: 100%;
+  min-width: 100%;
+  height: 10rem;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(247, 247, 247);
+  border-image: initial;
+  border-radius: 20px;
+  margin: 0px 0px 8px;
+  margin-top: 1rem;
+  padding: 18px 26px;
+  transition: all 0.3s ease-in-out 0s;
+}
+form button {
+  width: 100%;
+  padding: 0.3rem 0;
+  border-radius: 20px;
+  background: green;
+  color: white;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 767px) {
+  .form-center input {
+    flex: 0 0 calc(50% - 5px);
+  }
+  .form-center {
+    row-gap: 10px;
+  }
+}
+/*
+=============== 
+Footers
+===============
+*/
+footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 250 229 / var(--tw-bg-opacity));
+}
+.footer-center {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footer-center p {
+  text-align: center;
+}
+.footer-center section {
+  display: flex;
+  justify-content: space-between;
 }

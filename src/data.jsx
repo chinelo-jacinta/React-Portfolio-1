@@ -14,18 +14,23 @@ export const links = [
   },
   {
     id: 2,
-    url: '#skills-section',
-    name: 'skills',
+    url: '#about-section',
+    name: 'about',
   },
   {
     id: 3,
-    url: '#about-section',
-    name: 'about',
+    url: '#skills-section',
+    name: 'skills',
   },
   {
     id: 4,
     url: '#projects',
     name: 'projects',
+  },
+  {
+    id: 5,
+    url: '#contact',
+    name: 'contact',
   },
 ];
 export const skills = [
