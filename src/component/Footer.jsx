@@ -25,9 +25,7 @@ const Footer = () => {
             </a>
           </div>
         </section>
-        <p>
-          Copyright &copy; <a href='http://www.devcrud.com'>DevCRUD</a>
-        </p>
+        <p>Copyright &copy; 2024 All Rights Reserved</p>
       </div>
     </footer>
   );
